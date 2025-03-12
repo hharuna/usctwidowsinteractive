@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "hharuna"
+  },
+  "text": {
+    "more": "This project-prototype collects data from all digitally available petitions (via the National Archives) from widows of veterans of the U.S.C.T. regiments to create graphs and networks that highlights trends and patterns in the petition process as the widows navigated them. The data collection process is ongoing. Featured at this stage of the project are 59 petitions from widows of 2nd regiment veterans who served in Companies A, B, G \u0026 I. 56 of the 59 petitions are from widows of veterans who served in Companies A \u0026 B.",
+    "intro": "This is a network of widows, veterans, tesifiers (community members) and attorneys of pension claims attributed to the 2nd regiment of the United States Colored Troops following the Civil War",
+    "title": "ustwidowsgp2"
+  },
+  "legend": {
+    "edgeLabel": "Relations",
+    "colorLabel": "Degree",
+    "nodeLabel": "People"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
